@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/fakerBABA/Chlz/issues"
   },
-  "homepage": "https://github.com/fakerBABA/Chlz#readme"
+  "homepage": "https://github.com/fakerBABA/Chlz#readme",
+  "dependencies": {
+    "webpack": "^1.13.1"
+  }
 }
