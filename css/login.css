@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+body{
+	background: url('/assets/imgs/login_bg.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+:-webkit-autofill {
+  -webkit-text-fill-color: #fff !important;
+  transition: background-color 5000000s ease-in-out 0s;
+}
+.login-wrap{
+	position: relative;
+	top: 30%;
+	left: 10%;
+	margin: 0 auto 0 auto;
+	width: 400px;
+	height: 300px;
+}
+
+.login-wrap .item{
+	position: relative;
+	border: 2px solid #000;
+	margin: 35px 30px;
+}
+.login-icon{
+	width: 30px;
+	height: 35px;
+}
+.login-icon i{
+	font-size: 35px;
+    margin-left: -1px;
+    position: relative;
+    top: -1px;
+}
+.login-text{
+	height: 34px;
+	padding: 0;
+	margin: 0 0 0 38px;
+	line-height: 34px;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 18px;
+	color: #FFF;
+	border: none;
+	background: rgba(0, 0, 0, 0);
+	outline: none;
+	box-shadow: 1000px 1000px 1000px rgba(0, 0, 0, 0);
+}
+.is-text{
+	width: calc(100% - 38px);
+	margin-left: 8px;
+	padding-top: 3px;
+	height: 29px;
+}
+.placeholder{
+	display: none;
+	position: absolute;
+	top: 7px;
+	left: 39px;
+	margin: 0;
+	z-index: -1;
+	color: #fff;
+	transition: top .3s, opacity .5s;
+}
+.login-item-button{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	text-align: center;
+	outline: none;
+	background: rgba(0, 0, 0, 0.0);
+	border: 1px solid rgb(255, 255, 255);
+	color: #FFF;
+	transition: background-color .3s;
+}
+.login-item-button:hover{background-color: #832638;}
+.login-button-container{border: none !important;}
+.login-item-button i{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	line-height: 30px;
+	font-size: 30px;
+	animation: login_loading 2s infinite linear;
+}
+@keyframes login_loading {
+	from {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+		-ms-transform:rotate(360deg);
+		-webkit-transform:rotate(360deg);
+	}
+}
+.error-tips{
+	margin: -10px 30px;
+	color: rgb(230, 89, 89);
+	text-align: center;
+}
+
+.button-disabled{
+	background: rgba(112, 51, 51, 0.5) !important;
+	cursor: wait !important;
+}
+.button-disabled:hover{background: rgba(112, 51, 51, 0.5) !important;}

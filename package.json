@@ -1,0 +1,27 @@
+{
+  "name": "chlz",
+  "version": "1.0.0",
+  "description": "车厘子",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakerBABA/Chlz.git"
+  },
+  "keywords": [
+    "project",
+    "mock",
+    "api"
+  ],
+  "author": "lt, zh, cr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fakerBABA/Chlz/issues"
+  },
+  "homepage": "https://github.com/fakerBABA/Chlz#readme"
+}
