@@ -7,6 +7,8 @@ var config = require('./config');
 var route = require('./routes/route');
 var path = require("path");
 var ejs = require("ejs");
+
+app.use(express.static(path.join(__dirname, 'resources')));
 app.set('views',path.join(__dirname,'pages'));
 app.engine('html',ejs.__express);
 app.set('view engine', 'html');
