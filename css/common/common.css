@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'iconfont';
-  src: url('//at.alicdn.com/t/font_1469589637_2167256.eot'); /* IE9*/
-  src: url('//at.alicdn.com/t/font_1469589637_2167256.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('//at.alicdn.com/t/font_1469589637_2167256.woff') format('woff'), /* chrome、firefox */
-  url('//at.alicdn.com/t/font_1469589637_2167256.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url('//at.alicdn.com/t/font_1469589637_2167256.svg#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('//at.alicdn.com/t/font_1469777833_9436452.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1469777833_9436452.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1469777833_9436452.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1469777833_9436452.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1469777833_9436452.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont{
@@ -15,6 +15,13 @@
 	font-style:normal;
 }
 
-.fl{float: left;}
-.fr{float: right;}
-.clear{clear: both;}
+/**********各种字体大小定义************/
+.font-80{font-size: 80px}
+
+/******块颜色定义 6种主体颜色**********/
+.color-blue{background-color: #226FE4;}
+.color-red{background-color: #CD3301;}
+.color-orange{background-color: #F16102;}
+.color-purple{background-color: #B121B1;}
+.color-claret{background-color: #C71B47;}
+.color-green{background-color: #4D9208;}
