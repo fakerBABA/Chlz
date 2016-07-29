@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/fakerBABA/Chlz#readme",
   "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
     "webpack": "^1.13.1"
   }
 }
