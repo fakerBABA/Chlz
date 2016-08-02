@@ -7,7 +7,8 @@ html, body {
 	overflow: hidden;
 }
 body{
-	background: url('/assets/imgs/login_bg.jpg') no-repeat;
+	/*background: url('/imgs/login_bg.jpg') no-repeat;*/
+	background-color: rgb(51, 101, 152);
 	background-size: 100% 100%;
 }
 :-webkit-autofill {

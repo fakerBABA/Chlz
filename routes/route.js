@@ -15,4 +15,8 @@ router.get('/welcome', function(req, res, next) {
     res.render('welcome', { title: 'welcome' });
 });
 
+router.get('/header', function(req, res, next) {
+    res.render('header', { title: 'header' });
+});
+
 module.exports = router;

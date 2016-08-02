@@ -11,6 +11,7 @@ var ejs = require("ejs");
 app.use(express.static(path.join(__dirname, 'css')));
 app.use(express.static(path.join(__dirname, 'built')));
 app.use(express.static(path.join(__dirname, 'lib')));
+app.use(express.static(path.join(__dirname, 'source')));
 app.set('views',path.join(__dirname,'tests'));
 app.set('views',path.join(__dirname,'pages'));
 app.engine('html',ejs.__express);
