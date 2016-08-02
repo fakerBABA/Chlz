@@ -25,12 +25,12 @@
   },
   "homepage": "https://github.com/fakerBABA/Chlz#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "sildate": "^1.0.0",
-=======
+    "connect-redis": "^3.1.0",
     "ejs": "^2.5.1",
     "express": "^4.14.0",
->>>>>>> 9b51831dbe0112f8f7a5e0da4b9f87bac1f264f1
+    "express-session": "^1.14.0",
+    "redis": "^2.6.2",
+    "sildate": "^1.0.0",
     "webpack": "^1.13.1"
   }
 }
