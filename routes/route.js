@@ -7,4 +7,12 @@ router.get('/', function(req, res, next) {
     res.render('login', { title: 'login' });
 });
 
+router.get('/calendar', function(req, res, next) {
+    res.render('calendar', { title: 'calendar' });
+});
+
+router.get('/welcome', function(req, res, next) {
+    res.render('welcome', { title: 'welcome' });
+});
+
 module.exports = router;
