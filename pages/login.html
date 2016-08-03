@@ -8,13 +8,13 @@
 </head>
 <body>
 	<div class="login-wrap">
-		<form autocomplete="off">
+		<form autocomplete="off" action="/welcome">
 			<p class="error-tips">username or password wrong! try again.</p>
 			<div class="item">
 				<div class="fl login-icon">
 					<i class="iconfont">&#xe600;</i>
 				</div>
-				<input class="login-text is-text" type="text" />
+				<input class="login-text is-text" type="text"  name="username"/>
 				<p class="placeholder">Please enter your username.</p>
 				<div class="clear"></div>
 			</div>
@@ -22,11 +22,13 @@
 				<div class="fl login-icon">
 					<i class="iconfont">&#xe601;</i>
 				</div>
-				<input class="login-text is-text" type="password" />
+				<input class="login-text is-text" type="password"name="password"/>
 				<p class="placeholder">Please enter your password.</p>
 				<div class="clear"></div>
 			</div>
 			<div class="item login-button-container">
+				<input type="submit" value="login">
+				<a href="/registeIndex"><input type="button" value="Registe"></a>
 				<a class="login-item-button">
 					<!-- <i class="iconfont">&#xe60b;</i> -->
 					Login

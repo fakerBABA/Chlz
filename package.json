@@ -26,14 +26,14 @@
   "homepage": "https://github.com/fakerBABA/Chlz#readme",
   "dependencies": {
     "connect-redis": "^3.1.0",
+    "crypto": "0.0.3",
     "ejs": "^2.5.1",
     "express": "^4.14.0",
     "express-session": "^1.14.0",
-    "redis": "^2.6.2",
-    "ejs": "^2.5.1",
-    "express": "^4.14.0",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
+    "mongoose": "^4.5.3",
+    "redis": "^2.6.2",
     "sildate": "^1.0.0",
     "webpack": "^1.13.1"
   },

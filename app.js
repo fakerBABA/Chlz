@@ -20,11 +20,11 @@ app.set('view engine', 'html');
 
 //session
 app.use(session({
-   secret: 'test',
+   secret: 'Chlz',
    store:  new RedisStore({
       host:   '127.0.0.1',
       port:   6379,
-      ttl: 60 * 60 * 24 * 7   //Session的有效期为7天
+      ttl: 60 * 60 * 24 * 1   //Session的有效期为7天
    }),
    resave: true,
    saveUninitialized: true
