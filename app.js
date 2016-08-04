@@ -15,8 +15,8 @@ app.use(express.static(path.join(__dirname, 'css')));
 app.use(express.static(path.join(__dirname, 'built')));
 app.use(express.static(path.join(__dirname, 'lib')));
 app.set('views',path.join(__dirname,'pages'));
-app.engine('html',ejs.__express);
-app.set('view engine', 'html');
+//app.engine('html',ejs.__express);
+app.set('view engine', 'ejs');
 
 //session
 app.use(session({
