@@ -9,7 +9,9 @@
 <body>
 	<div class="login-wrap">
 		<form autocomplete="off" action="/welcome">
-			<p class="error-tips">username or password wrong! try again.</p>
+			<% if (typeof (error) !== 'undefined' && error) {%>
+			<p class="error-tips"><%= error %></p>
+			<%}%>
 			<div class="item">
 				<div class="fl login-icon">
 					<i class="iconfont">&#xe600;</i>
