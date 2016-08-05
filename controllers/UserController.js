@@ -14,12 +14,10 @@ exports.login = function(req, res, next){
             return  next(err);
         }
         if (!user) {
-            console.log('用户不存在');
-            return;
+            return res.render('login',{error: '用户不存在'});
         }
         if (password != user.password){
-            console.log('密码错误');
-            return;
+            return res.render('login',{error: '密码错误'});
         }
         req.session.user = user;
         req.session.save();
@@ -38,7 +36,7 @@ exports.registe = function(req, res, next){
             return next(err);
         }
         if (user) {
-            console.log('用户已经存在');
+           return res.render('/registeIndex',{error: '用户已存在'});
         }
         UserDao.newAndSave(username, password, loginName, photo, groupId, function(err, user){
                 if(err){
